@@ -12,7 +12,7 @@ body {
 .main {
     height: 150px;
     width: 100%;
-    background-color: aliceblue;
+    background-color: black;
     box-shadow: 0 3px 10px rgb(0 0 0 / 0.2);
 }
 
@@ -27,6 +27,7 @@ body {
 .small-links {
     font-size: 45px;
     font-style: oblique;
+    color: aliceblue;
 
 }
 
