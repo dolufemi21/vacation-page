@@ -1,0 +1,116 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+body {
+    background-image: url(../photo-1596120236172-231999844ade.avif);
+    background-size: cover;
+}
+
+.main {
+    height: 150px;
+    width: 100%;
+    background-color: aliceblue;
+    box-shadow: 0 3px 10px rgb(0 0 0 / 0.2);
+}
+
+#down-links {
+    display: flex;
+    gap: 60px;
+    justify-content: center;
+    align-content: center;
+    padding-top: 17px;
+}
+
+.small-links {
+    font-size: 45px;
+    font-style: oblique;
+
+}
+
+li {
+    list-style: none;
+}
+
+#butt {
+    font-size: 20px;
+    background-color: brown;
+    color: aliceblue;
+    float: right;
+    padding-right: 100px;
+    width: 10%;
+}
+
+.main-story {}
+
+#image {
+    margin-top: 120px;
+
+}
+
+#lower-card {
+    height: 600px;
+
+    padding: 50px;
+    display: flex;
+    align-content: center;
+    justify-content: space-between;
+
+}
+
+.card-stories {
+    height: 300px;
+    width: 300px;
+    background-color: antiquewhite;
+    box-shadow: 0 3px 10px rgb(0 0 0 / 0.2);
+    padding: 4px;
+
+}
+
+#first-card {
+
+    background-color: aqua;
+    height: 50%;
+
+}
+
+.image {
+    height: 100%;
+    width: 100%;
+
+}
+
+.para {
+    font-size: 20px;
+    text-align: center;
+    font-style: inherit;
+    margin-top: 20px;
+}
+
+#second {
+    height: 50%;
+}
+
+#second-story {
+    height: 50%;
+    width: fit-content;
+}
+
+.second-stories {
+    height: 100vh;
+    width: 100%;
+    
+}
+
+#second-main {
+ display: flex;
+ justify-content: center;
+
+}
+
+.second-img {
+    height: 100px;
+    width: 100px;
+}
